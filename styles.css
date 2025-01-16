@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section Styles */
+section {
+  padding: 2rem 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#about img {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.project {
+  background: #f4f4f4;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
